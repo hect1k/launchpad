@@ -17,9 +17,7 @@ Launchpad is a **fast**, **minimal**, and **SEO-friendly** [Astro](https://astro
 To get started with Launchpad, run the following command:
 
 ```sh
-npx degit nnisarggada/launchpad new-project
-cd new-project
-npm install
+npm create astro@latest --template nnisarggada/launchpad
 ```
 
 ## 🛠️ Usage
@@ -70,9 +68,6 @@ export const metaData = {
   author: "Nnisarg Gada",
 };
 ```
-
-### **TailwindCSS**
-Creat and modify `tailwind.config.mjs` for custom styling.
 
 ## 📜 License
 
