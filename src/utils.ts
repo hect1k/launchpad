@@ -6,7 +6,7 @@ export const metaData = {
 };
 
 export const umami = {
-  src: "https://umami.nnisarg.in/umami.js",
+  src: "https://umami.nnisarg.in/script.js",
   id: "e318ec0d-e7ca-4b97-8517-fbfe3e40e56d",
   domains: "launchpad.nnisarg.in",
 };
