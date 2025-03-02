@@ -1,48 +1,88 @@
-# Astro Starter Kit: Basics
+# Launchpad - A Minimal Astro Starter
+
+Launchpad is a **fast**, **minimal**, and **SEO-friendly** [Astro](https://astro.build/) starter template designed to streamline your web development process. It comes with pre-configured settings, reusable components, and best practices for performance and accessibility.
+
+## 🚀 Features
+
+- ⚡ **Lightning Fast** – Powered by [Astro](https://astro.build/) for optimal performance
+- 📄 **Prebuilt Pages** – Home, About, and other essential pages
+- 🎨 **[TailwindCSS](https://tailwindcss.com/) Ready** – Pre-configured for styling
+- 🌍 **SEO Optimized** – Meta tags, Open Graph, and Twitter Card setup
+- 🔗 **Canonical URLs** – Pre-configured for better indexing
+- 🖼️ **Image Optimization** – Astro’s built-in image handling
+- 🔧 **Modular Components** – Easily reusable UI elements
+
+## 📦 Installation
+
+To get started with Launchpad, run the following command:
 
 ```sh
-pnpm create astro@latest -- --template basics
+npx degit nnisarggada/launchpad new-project
+cd new-project
+npm install
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## 🛠️ Usage
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Run the development server:
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+```sh
+npm run dev
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+Build for production:
 
-## 🧞 Commands
+```sh
+npm run build
+```
 
-All commands are run from the root of the project, from a terminal:
+Preview the production build:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
+```sh
+npm run preview
+```
 
-## 👀 Want to learn more?
+## 📂 Project Structure
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+```
+launchpad/
+│── src/
+│   ├── components/  # Reusable UI components
+│   ├── layouts/     # Page layouts
+│   ├── pages/       # Default pages
+│   ├── styles/      # Global styles
+│   ├── utils.ts     # Global vars/funcs
+│── public/          # Static assets
+│── astro.config.mjs # Astro configuration
+│── package.json     # Dependencies
+```
+
+## 🔧 Configuration
+
+### **SEO Metadata**
+Modify `metaData` in `src/utils.ts`:
+
+```js
+export const metaData = {
+  title: "Launchpad | A minimal Astro Starter by Nnisarg Gada",
+  description: "Launchpad is a fast, minimal, and SEO-friendly Astro starter template designed for modern web projects.",
+  image: "https://nnisarg.in/images/og_image.jpg",
+  author: "Nnisarg Gada",
+};
+```
+
+### **TailwindCSS**
+Creat and modify `tailwind.config.mjs` for custom styling.
+
+## 📜 License
+
+This project is open-source and available under the **<license>**.
+
+## 💡 Author
+
+Created by **[Nnisarg Gada](https://nnisarg.in)**. Feel free to reach via [contact@nnisarg.in](mailto:contact@nnisarg.in)!
+
+---
+
+🚀 **Start building with Launchpad today!**
+

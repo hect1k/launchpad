@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+  overflow-x: clip;
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+.h-screen {
+  height: 100vh;
+  height: 100dvh;
+}
