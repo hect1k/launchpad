@@ -71,7 +71,7 @@ export const metaData = {
 
 ## 📜 License
 
-This project is open-source and available under the **<license>**.
+This project is licensed under the GNU General Public License v3 - see the [LICENSE](LICENSE.md) file for details.
 
 ## 💡 Author
 
