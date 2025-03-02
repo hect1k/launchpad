@@ -1,7 +1,7 @@
 ---
 import "../styles/global.css";
 
-import { metaData } from "@/utils";
+import { metaData, umami } from "@/utils";
 const title = Astro.props.title || metaData.title;
 const description = Astro.props.description || metaData.description;
 const image = Astro.props.image || metaData.image;
@@ -34,6 +34,12 @@ const author = Astro.props.author || metaData.author;
     <link rel="sitemap" href="/sitemap-index.xml" />
     <!-- SEO -->
 
+    <script
+      is:inline
+      defer
+      src={umami.src}
+      data-website-id={umami.id}
+      data-domains={umami.domains}></script>
   </head>
   <body class="h-screen w-screen">
     <slot />

@@ -4,3 +4,9 @@ export const metaData = {
   image: "https://launchpad.nnisarg.in/poster.jpg",
   author: "Nnisarg Gada",
 };
+
+export const umami = {
+  src: "https://umami.nnisarg.in/umami.js",
+  id: "e318ec0d-e7ca-4b97-8517-fbfe3e40e56d",
+  domains: "launchpad.nnisarg.in",
+};
