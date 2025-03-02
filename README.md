@@ -2,6 +2,8 @@
 
 Launchpad is a **fast**, **minimal**, and **SEO-friendly** [Astro](https://astro.build/) starter template designed to streamline your web development process. It comes with pre-configured settings, reusable components, and best practices for performance and accessibility.
 
+![Launchpad Poster](https://launchpad.nnisarg.in/poster.jpg)
+
 ## 🚀 Features
 
 - ⚡ **Lightning Fast** – Powered by [Astro](https://astro.build/) for optimal performance
