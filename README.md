@@ -19,7 +19,7 @@ Launchpad is a **fast**, **minimal**, and **SEO-friendly** [Astro](https://astro
 To get started with Launchpad, run the following command:
 
 ```sh
-npm create astro@latest --template nnisarggada/launchpad
+npm create astro@latest --template hect1k/launchpad
 ```
 
 ## 🛠️ Usage
